@@ -80,14 +80,14 @@ python train_simulator.py --mode full --epochs 3 --run_epochs 1
 python train_simulator.py --mode full --epochs 3 --run_epochs 0 \
     --resume checkpoints/simulator_full_state.pt
 
-# 2. Generate a silicon sample on held-out IPIP items (default T=0.6)
+# 2. Generate a silicon sample on held-out IPIP items 
 python silicon_sample.py --checkpoint checkpoints/simulator_full.pt \
     --items_file data/item_holdout.parquet --output_file silicon.csv
 
 # 3. Compute psychometrics (Python driver calls the R pipeline)
 python 05_simulator_psychometrics.py --human data/item_holdout.parquet --silicon silicon.csv
 
-# BFI out-of-distribution (use T=1.0)
+# BFI out-of-distribution 
 python silicon_sample.py --checkpoint checkpoints/simulator_full.pt \
     --items_file data/bfi_items.parquet --temperature 1.0 --output_file silicon_bfi.csv
 python 05_simulator_psychometrics.py --human bfi_human_long.csv --silicon silicon_bfi.csv
