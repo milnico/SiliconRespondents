@@ -1,0 +1,54 @@
+
+
+E1	I am the life of the party. , false
+E2	I don't talk a lot. , true
+E3	I feel comfortable around people., false
+E4	I keep in the background. , true
+E5	I start conversations., false
+E6	I have little to say. , true
+E7	I talk to a lot of different people at parties., false
+E8	I don't like to draw attention to myself. , true
+E9	I don't mind being the center of attention., false
+E10	I am quiet around strangers. , true
+N1	I get stressed out easily., false
+N2	I am relaxed most of the time. , true
+N3	I worry about things., false
+N4	I seldom feel blue. , true
+N5	I am easily disturbed., false
+N6	I get upset easily., false
+N7	I change my mood a lot., false
+N8	I have frequent mood swings., false
+N9	I get irritated easily., false
+N10	I often feel blue., false
+A1	I feel little concern for others. , true
+A2	I am interested in people., false
+A3	I insult people. , true
+A4	I sympathize with others' feelings., false
+A5	I am not interested in other people's problems. , true
+A6	I have a soft heart., false
+A7	I am not really interested in others. , true
+A8	I take time out for others., false
+A9	I feel others' emotions., false
+A10	I make people feel at ease., false
+C1	I am always prepared., false
+C2	I leave my belongings around. , true
+C3	I pay attention to details., false
+C4	I make a mess of things. , true
+C5	I get chores done right away., false
+C6	I often forget to put things back in their proper place. , true
+C7	I like order., false
+C8	I shirk my duties. , true
+C9	I follow a schedule., false
+C10	I am exacting in my work., false
+O1	I have a rich vocabulary., false
+O2	I have difficulty understanding abstract ideas. , true
+O3	I have a vivid imagination., false
+O4	I am not interested in abstract ideas. , true
+O5	I have excellent ideas., false
+O6	I do not have a good imagination. , true
+O7	I am quick to understand things., false
+O8	I use difficult words., false
+O9	I spend time reflecting on things., false
+O10	I am full of ideas., false
+
+

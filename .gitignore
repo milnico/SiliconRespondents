@@ -1,0 +1,37 @@
+# === Model weights / checkpoints (too large for GitHub; regenerate via training) ===
+*.pt
+checkpoints/
+
+# === Generated silicon samples & model predictions ===
+silicon_outputs/
+silicon_*.csv
+predictions_*.csv
+bfi_human_long.csv
+
+# === Raw / large source dumps (obtain from original sources; see README) ===
+data.csv
+latent_scores.csv
+responses_long.parquet
+split_*.parquet
+
+# === Training / run logs ===
+logs/
+*.log
+loss_log.csv
+fast_loss_log.csv
+
+# === Python / tooling caches ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+unsloth_compiled_cache/
+
+# === OS cruft ===
+.DS_Store
+
+# === Internal notes (kept on disk, not published) ===
+CLAUDE.md
+WALKTHROUGH.md

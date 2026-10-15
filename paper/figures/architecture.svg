@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 860 980"
+   font-family="sans-serif"
+   font-size="12"
+   version="1.1"
+   id="svg279"
+   sodipodi:docname="architecture.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview281"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.85918367"
+     inkscape:cx="252.56532"
+     inkscape:cy="425.4038"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="66"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg279" />
+  <defs
+     id="defs11">
+    <marker
+       id="arr"
+       markerWidth="8"
+       markerHeight="8"
+       refX="6"
+       refY="3"
+       orient="auto">
+      <path
+         d="M0,0 L0,6 L8,3 z"
+         fill="#333"
+         id="path2" />
+    </marker>
+    <marker
+       id="arr-dashed"
+       markerWidth="8"
+       markerHeight="8"
+       refX="6"
+       refY="3"
+       orient="auto">
+      <path
+         d="M0,0 L0,6 L8,3 z"
+         fill="#888"
+         id="path5" />
+    </marker>
+    <marker
+       id="arr-blue"
+       markerWidth="8"
+       markerHeight="8"
+       refX="6"
+       refY="3"
+       orient="auto">
+      <path
+         d="M0,0 L0,6 L8,3 z"
+         fill="#2C6E9B"
+         id="path8" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect
+     width="860"
+     height="980"
+     fill="white"
+     id="rect13" />
+  <!-- ═══════════════════════════════════════════════════
+       ROW 1 — Trait Vector input  (y≈30)
+  ════════════════════════════════════════════════════ -->
+  <!-- Five trait cells -->
+  <g
+     id="trait-vector">
+    <!-- Container label -->
+    <text
+       x="280"
+       y="28"
+       font-size="11"
+       fill="#555"
+       text-anchor="middle"
+       id="text17">Trait Vector  <tspan
+   font-style="italic"
+   id="tspan15">z</tspan></text>
+    <!-- O -->
+    <rect
+       x="155"
+       y="33"
+       width="46"
+       height="28"
+       rx="4"
+       fill="#F0F0F0"
+       stroke="#555"
+       stroke-width="1.2"
+       id="rect19" />
+    <text
+       x="178"
+       y="52"
+       text-anchor="middle"
+       font-size="12"
+       fill="#333"
+       id="text21">O</text>
+    <!-- C -->
+    <rect
+       x="207"
+       y="33"
+       width="46"
+       height="28"
+       rx="4"
+       fill="#F0F0F0"
+       stroke="#555"
+       stroke-width="1.2"
+       id="rect23" />
+    <text
+       x="230"
+       y="52"
+       text-anchor="middle"
+       font-size="12"
+       fill="#333"
+       id="text25">C</text>
+    <!-- E -->
+    <rect
+       x="259"
+       y="33"
+       width="46"
+       height="28"
+       rx="4"
+       fill="#F0F0F0"
+       stroke="#555"
+       stroke-width="1.2"
+       id="rect27" />
+    <text
+       x="282"
+       y="52"
+       text-anchor="middle"
+       font-size="12"
+       fill="#333"
+       id="text29">E</text>
+    <!-- A -->
+    <rect
+       x="311"
+       y="33"
+       width="46"
+       height="28"
+       rx="4"
+       fill="#F0F0F0"
+       stroke="#555"
+       stroke-width="1.2"
+       id="rect31" />
+    <text
+       x="334"
+       y="52"
+       text-anchor="middle"
+       font-size="12"
+       fill="#333"
+       id="text33">A</text>
+    <!-- N -->
+    <rect
+       x="363"
+       y="33"
+       width="46"
+       height="28"
+       rx="4"
+       fill="#F0F0F0"
+       stroke="#555"
+       stroke-width="1.2"
+       id="rect35" />
+    <text
+       x="386"
+       y="52"
+       text-anchor="middle"
+       font-size="12"
+       fill="#333"
+       id="text37">N</text>
+    <!-- dim label -->
+    <text
+       x="420"
+       y="52"
+       font-size="10"
+       fill="#888"
+       id="text39">(B×5)</text>
+  </g>
+  <!-- Arrow: trait vector → TraitEncoder -->
+  <line
+     x1="282"
+     y1="61"
+     x2="282"
+     y2="83"
+     stroke="#333"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line42" />
+  <!-- ═══════════════════════════════════════════════════
+       ROW 2 — TraitEncoder  (y≈84)
+  ════════════════════════════════════════════════════ -->
+  <rect
+     x="107.25887"
+     y="84.090141"
+     width="346.49432"
+     height="51.81971"
+     rx="7.3203025"
+     fill="#fde8cc"
+     stroke="#c07020"
+     stroke-width="1.8812"
+     id="rect44" />
+  <text
+     x="282"
+     y="105"
+     text-anchor="middle"
+     font-size="13"
+     font-weight="bold"
+     fill="#7A4010"
+     id="text46">TraitEncoder</text>
+  <text
+     x="282"
+     y="124"
+     text-anchor="middle"
+     font-size="10.5"
+     fill="#7A4010"
+     id="text48">Linear(5→64) → SiLU → Linear(64→128) → SiLU → Linear(128→256)</text>
+  <!-- trait code annotation -->
+  <text
+     x="233.20982"
+     y="151.40997"
+     text-anchor="middle"
+     font-size="10px"
+     fill="#888888"
+     font-style="italic"
+     id="text50">trait code (B × 256)</text>
+  <!-- Arrow: TraitEncoder → fork -->
+  <line
+     x1="282"
+     y1="136"
+     x2="282"
+     y2="163"
+     stroke="#333"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line52" />
+  <!-- ═══════════════════════════════════════════════════
+       ROW 3 — Fork: prefix path (left) + LoRA route (right)
+  ════════════════════════════════════════════════════ -->
+  <!-- Horizontal split line -->
+  <line
+     x1="180"
+     y1="170"
+     x2="282"
+     y2="170"
+     stroke="#333"
+     stroke-width="1.2"
+     id="line54" />
+  <line
+     x1="282"
+     y1="170"
+     x2="490"
+     y2="170"
+     stroke="#333"
+     stroke-width="1.2"
+     id="line56" />
+  <!-- Left branch arrow → prefix_proj -->
+  <line
+     x1="180"
+     y1="170"
+     x2="180"
+     y2="191"
+     stroke="#333"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line58" />
+  <!-- Right branch arrow → LoRA routing bubble -->
+  <line
+     x1="490"
+     y1="170"
+     x2="490"
+     y2="191"
+     stroke="#888"
+     stroke-width="1.2"
+     stroke-dasharray="5,3"
+     marker-end="url(#arr-dashed)"
+     id="line60" />
+  <!-- prefix_proj box -->
+  <rect
+     x="90"
+     y="192"
+     width="182"
+     height="44"
+     rx="6"
+     fill="#FDE8CC"
+     stroke="#C07020"
+     stroke-width="1.8"
+     id="rect62" />
+  <text
+     x="181"
+     y="210"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="bold"
+     fill="#7A4010"
+     id="text64">prefix_proj</text>
+  <text
+     x="181"
+     y="227"
+     text-anchor="middle"
+     font-size="10.5"
+     fill="#7A4010"
+     id="text66">Linear(256 → 8 × 1536)</text>
+  <!-- "8 soft-prefix tokens" label -->
+  <text
+     x="181"
+     y="252"
+     text-anchor="middle"
+     font-size="10"
+     fill="#888"
+     font-style="italic"
+     id="text68">8 soft-prefix tokens  (B × 8 × 1536)</text>
+  <!-- LoRA routing bubble (right) -->
+  <rect
+     x="390"
+     y="192"
+     width="210"
+     height="44"
+     rx="6"
+     fill="#FDE8CC"
+     stroke="#C07020"
+     stroke-width="1.5"
+     stroke-dasharray="6,3"
+     id="rect70" />
+  <text
+     x="495"
+     y="210"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="bold"
+     fill="#7A4010"
+     id="text72">trait code → 48 gate_mlp</text>
+  <text
+     x="495"
+     y="226"
+     text-anchor="middle"
+     font-size="10"
+     fill="#7A4010"
+     id="text74">(last 12 Qwen layers, q/k/v/o)</text>
+  <!-- ═══════════════════════════════════════════════════
+       ROW 4 — Questionnaire item text path  (far left)
+  ════════════════════════════════════════════════════ -->
+  <!-- Questionnaire item box -->
+  <rect
+     x="9.2974081"
+     y="269.97705"
+     width="136.72552"
+     height="36.045879"
+     rx="4.6191058"
+     fill="#f0f0f0"
+     stroke="#555555"
+     stroke-width="1.2"
+     id="rect76" />
+  <text
+     x="72"
+     y="283"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="bold"
+     fill="#333"
+     id="text78">Questionnaire item</text>
+  <text
+     x="72"
+     y="298"
+     text-anchor="middle"
+     font-size="10"
+     fill="#555"
+     id="text80">(text string)</text>
+  <!-- arrow → embed_tokens -->
+  <line
+     x1="146"
+     y1="288"
+     x2="168"
+     y2="288"
+     stroke="#333"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line82" />
+  <!-- embed_tokens frozen box -->
+  <rect
+     x="170"
+     y="274"
+     width="108"
+     height="28"
+     rx="5"
+     fill="#D6E4F0"
+     stroke="#2C6E9B"
+     stroke-width="1.5"
+     id="rect84" />
+  <text
+     x="224"
+     y="287"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="bold"
+     fill="#1A4A70"
+     id="text86">embed_tokens</text>
+  <text
+     x="224"
+     y="299"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#1A4A70"
+     id="text88">(frozen)</text>
+  <!-- token embeddings label -->
+  <text
+     x="224"
+     y="317"
+     text-anchor="middle"
+     font-size="10"
+     fill="#888"
+     font-style="italic"
+     id="text90">N × 1536 token embeddings</text>
+  <!-- ═══════════════════════════════════════════════════
+       ROW 5 — Concatenation  (y≈330)
+  ════════════════════════════════════════════════════ -->
+  <!-- Arrow from prefix_proj down to concat -->
+  <line
+     x1="309.58295"
+     y1="216.6257"
+     x2="309.58295"
+     y2="319.7518"
+     stroke="#333333"
+     stroke-width="1.77076"
+     marker-end="url(#arr)"
+     id="line92" />
+  <!-- Arrow from embed_tokens down to concat -->
+  <line
+     x1="224"
+     y1="320"
+     x2="224"
+     y2="330"
+     stroke="#333"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line94" />
+  <!-- Concat bracket box -->
+  <rect
+     x="70"
+     y="331"
+     width="310"
+     height="38"
+     rx="5"
+     fill="#F0F0F0"
+     stroke="#555"
+     stroke-width="1.4"
+     id="rect96" />
+  <text
+     x="225"
+     y="346"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="bold"
+     fill="#333"
+     id="text98">[ prefix (8)  |  item tokens (N) ]</text>
+  <text
+     x="225"
+     y="362"
+     text-anchor="middle"
+     font-size="10"
+     fill="#555"
+     id="text100">B × (8+N) × 1536  +  extended attention mask</text>
+  <!-- Arrow: concat → transformer -->
+  <line
+     x1="225"
+     y1="369"
+     x2="225"
+     y2="389"
+     stroke="#333"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line102" />
+  <!-- ═══════════════════════════════════════════════════
+       ROW 6a — Qwen Layers 1–16  (frozen)  y≈390
+  ════════════════════════════════════════════════════ -->
+  <rect
+     x="70"
+     y="390"
+     width="310"
+     height="72"
+     rx="6"
+     fill="#D6E4F0"
+     stroke="#2C6E9B"
+     stroke-width="2"
+     id="rect104" />
+  <text
+     x="225"
+     y="413"
+     text-anchor="middle"
+     font-size="13"
+     font-weight="bold"
+     fill="#1A4A70"
+     id="text106">Qwen Layers 1–16</text>
+  <text
+     x="225"
+     y="431"
+     text-anchor="middle"
+     font-size="10.5"
+     fill="#1A4A70"
+     id="text108">frozen self-attention + FFN  ×16</text>
+  <text
+     x="225"
+     y="450"
+     text-anchor="middle"
+     font-size="10"
+     fill="#2C6E9B"
+     font-style="italic"
+     id="text110">(no trait conditioning)</text>
+  <!-- Arrow between layer blocks -->
+  <line
+     x1="225"
+     y1="462"
+     x2="225"
+     y2="480"
+     stroke="#333"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line112" />
+  <!-- ═══════════════════════════════════════════════════
+       ROW 6b — Qwen Layers 17–28  (LoRA)  y≈481
+  ════════════════════════════════════════════════════ -->
+  <!-- Outer box slightly different shade to hint mixed frozen+trainable -->
+  <rect
+     x="70"
+     y="481"
+     width="310"
+     height="88"
+     rx="6"
+     fill="#D6E4F0"
+     stroke="#2C6E9B"
+     stroke-width="2"
+     id="rect114" />
+  <!-- Trainable accent bar on left edge -->
+  <rect
+     x="70"
+     y="481"
+     width="8"
+     height="88"
+     rx="3"
+     fill="#C07020"
+     id="rect116" />
+  <text
+     x="225"
+     y="506"
+     text-anchor="middle"
+     font-size="13"
+     font-weight="bold"
+     fill="#1A4A70"
+     id="text118">Qwen Layers 17–28</text>
+  <text
+     x="225"
+     y="524"
+     text-anchor="middle"
+     font-size="10.5"
+     fill="#1A4A70"
+     id="text120">frozen FFN;  q/k/v/o projections</text>
+  <text
+     x="225"
+     y="540"
+     text-anchor="middle"
+     font-size="10.5"
+     fill="#1A4A70"
+     id="text122">wrapped with LoRA bypass  ×12</text>
+  <!-- bypass icon: small circle-plus -->
+  <circle
+     cx="225"
+     cy="557"
+     r="7"
+     fill="none"
+     stroke="#C07020"
+     stroke-width="1.5"
+     id="circle124" />
+  <line
+     x1="218"
+     y1="557"
+     x2="232"
+     y2="557"
+     stroke="#C07020"
+     stroke-width="1.5"
+     id="line126" />
+  <line
+     x1="225"
+     y1="550"
+     x2="225"
+     y2="564"
+     stroke="#C07020"
+     stroke-width="1.5"
+     id="line128" />
+  <!-- Dashed arrow from LoRA routing bubble into layers 17-28 -->
+  <path
+     d="M490,236 L560,236 L560,525 L384,525"
+     fill="none"
+     stroke="#888"
+     stroke-width="1.3"
+     stroke-dasharray="6,3"
+     marker-end="url(#arr-dashed)"
+     id="path130" />
+  <text
+     x="573"
+     y="380"
+     font-size="10"
+     fill="#888"
+     transform="rotate(90,573,380)"
+     id="text132">trait code (B×256)</text>
+  <!-- Arrow: transformer → output -->
+  <line
+     x1="225"
+     y1="569"
+     x2="225"
+     y2="590"
+     stroke="#333"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line134" />
+  <!-- ═══════════════════════════════════════════════════
+       ROW 7 — Output readout  y≈591
+  ════════════════════════════════════════════════════ -->
+  <!-- LM head / logits box (frozen) -->
+  <rect
+     x="100"
+     y="591"
+     width="250"
+     height="42"
+     rx="5"
+     fill="#D6E4F0"
+     stroke="#2C6E9B"
+     stroke-width="1.8"
+     id="rect136" />
+  <text
+     x="225"
+     y="608"
+     text-anchor="middle"
+     font-size="12"
+     font-weight="bold"
+     fill="#1A4A70"
+     id="text138">LM Head  (frozen)</text>
+  <text
+     x="225"
+     y="625"
+     text-anchor="middle"
+     font-size="10"
+     fill="#1A4A70"
+     id="text140">logits[:, −1, :]  →  151K-dim vocabulary logits</text>
+  <!-- Arrow → index_select -->
+  <line
+     x1="225"
+     y1="633"
+     x2="225"
+     y2="651"
+     stroke="#333"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line142" />
+  <!-- index_select box -->
+  <rect
+     x="120"
+     y="652"
+     width="210"
+     height="32"
+     rx="5"
+     fill="#F0F0F0"
+     stroke="#555"
+     stroke-width="1.3"
+     id="rect144" />
+  <text
+     x="225"
+     y="666"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="bold"
+     fill="#333"
+     id="text146">index_select(digit_ids)</text>
+  <text
+     x="225"
+     y="679"
+     text-anchor="middle"
+     font-size="10"
+     fill="#555"
+     id="text148">extract 5 logits for &quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,&quot;5&quot;</text>
+  <!-- Arrow → softmax -->
+  <line
+     x1="225"
+     y1="684"
+     x2="225"
+     y2="700"
+     stroke="#333"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line150" />
+  <!-- softmax label -->
+  <text
+     x="225"
+     y="712"
+     text-anchor="middle"
+     font-size="11"
+     fill="#555"
+     font-style="italic"
+     id="text152">softmax</text>
+  <line
+     x1="225"
+     y1="715"
+     x2="225"
+     y2="726"
+     stroke="#333"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line154" />
+  <!-- P(1)..P(5) cells -->
+  <g
+     id="output-dist">
+    <rect
+       x="100"
+       y="727"
+       width="44"
+       height="30"
+       rx="4"
+       fill="#F0F0F0"
+       stroke="#555"
+       stroke-width="1.2"
+       id="rect156" />
+    <text
+       x="122"
+       y="747"
+       text-anchor="middle"
+       font-size="12"
+       fill="#333"
+       id="text158">P(1)</text>
+    <rect
+       x="150"
+       y="727"
+       width="44"
+       height="30"
+       rx="4"
+       fill="#F0F0F0"
+       stroke="#555"
+       stroke-width="1.2"
+       id="rect160" />
+    <text
+       x="172"
+       y="747"
+       text-anchor="middle"
+       font-size="12"
+       fill="#333"
+       id="text162">P(2)</text>
+    <rect
+       x="200"
+       y="727"
+       width="44"
+       height="30"
+       rx="4"
+       fill="#F0F0F0"
+       stroke="#555"
+       stroke-width="1.2"
+       id="rect164" />
+    <text
+       x="222"
+       y="747"
+       text-anchor="middle"
+       font-size="12"
+       fill="#333"
+       id="text166">P(3)</text>
+    <rect
+       x="250"
+       y="727"
+       width="44"
+       height="30"
+       rx="4"
+       fill="#F0F0F0"
+       stroke="#555"
+       stroke-width="1.2"
+       id="rect168" />
+    <text
+       x="272"
+       y="747"
+       text-anchor="middle"
+       font-size="12"
+       fill="#333"
+       id="text170">P(4)</text>
+    <rect
+       x="300"
+       y="727"
+       width="44"
+       height="30"
+       rx="4"
+       fill="#F0F0F0"
+       stroke="#555"
+       stroke-width="1.2"
+       id="rect172" />
+    <text
+       x="322"
+       y="747"
+       text-anchor="middle"
+       font-size="12"
+       fill="#333"
+       id="text174">P(5)</text>
+  </g>
+  <text
+     x="356"
+     y="747"
+     font-size="10"
+     fill="#888"
+     id="text177">Likert</text>
+  <!-- ═══════════════════════════════════════════════════
+       INSET — LoRA module detail  (right side)
+  ════════════════════════════════════════════════════ -->
+  <rect
+     x="590"
+     y="390"
+     width="255"
+     height="375"
+     rx="8"
+     fill="#FAFAFA"
+     stroke="#999"
+     stroke-width="1.5"
+     id="rect179" />
+  <text
+     x="717"
+     y="410"
+     text-anchor="middle"
+     font-size="11.5"
+     font-weight="bold"
+     fill="#333"
+     id="text181">LatentGatedLoRALinear  (×48)</text>
+  <line
+     x1="600"
+     y1="416"
+     x2="835"
+     y2="416"
+     stroke="#ccc"
+     stroke-width="1"
+     id="line183" />
+  <!-- input x -->
+  <text
+     x="610"
+     y="438"
+     font-size="11"
+     fill="#333"
+     font-style="italic"
+     id="text185">x</text>
+  <line
+     x1="620"
+     y1="434"
+     x2="830"
+     y2="434"
+     stroke="#333"
+     stroke-width="1.3"
+     id="line187" />
+  <!-- left branch down -->
+  <line
+     x1="635"
+     y1="434"
+     x2="635"
+     y2="454"
+     stroke="#333"
+     stroke-width="1.3"
+     marker-end="url(#arr)"
+     id="line189" />
+  <!-- base_layer W frozen (top right) -->
+  <rect
+     x="740"
+     y="423"
+     width="84"
+     height="26"
+     rx="4"
+     fill="#D6E4F0"
+     stroke="#2C6E9B"
+     stroke-width="1.4"
+     id="rect191" />
+  <text
+     x="782"
+     y="434"
+     text-anchor="middle"
+     font-size="10"
+     font-weight="bold"
+     fill="#1A4A70"
+     id="text193">base W</text>
+  <text
+     x="782"
+     y="445"
+     text-anchor="middle"
+     font-size="9"
+     fill="#1A4A70"
+     id="text195">(frozen)</text>
+  <!-- right branch arrow down from base W -->
+  <line
+     x1="782"
+     y1="449"
+     x2="782"
+     y2="703"
+     stroke="#2C6E9B"
+     stroke-width="1.3"
+     id="line197" />
+  <!-- dropout + lora_A -->
+  <rect
+     x="598"
+     y="455"
+     width="126"
+     height="28"
+     rx="4"
+     fill="#FDE8CC"
+     stroke="#C07020"
+     stroke-width="1.4"
+     id="rect199" />
+  <text
+     x="661"
+     y="468"
+     text-anchor="middle"
+     font-size="10"
+     font-weight="bold"
+     fill="#7A4010"
+     id="text201">dropout → lora_A</text>
+  <text
+     x="661"
+     y="479"
+     text-anchor="middle"
+     font-size="9"
+     fill="#7A4010"
+     id="text203">in → r=16</text>
+  <!-- arrow down -->
+  <line
+     x1="661"
+     y1="483"
+     x2="661"
+     y2="505"
+     stroke="#333"
+     stroke-width="1.3"
+     marker-end="url(#arr)"
+     id="line205" />
+  <!-- gate dashed box -->
+  <rect
+     x="596"
+     y="506"
+     width="168"
+     height="110"
+     rx="5"
+     fill="none"
+     stroke="#C07020"
+     stroke-width="1.2"
+     stroke-dasharray="5,3"
+     id="rect207" />
+  <text
+     x="680"
+     y="519"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#C07020"
+     font-style="italic"
+     id="text209">gate  (mode = full only)</text>
+  <!-- gate_mlp box -->
+  <rect
+     x="606"
+     y="523"
+     width="148"
+     height="28"
+     rx="4"
+     fill="#FDE8CC"
+     stroke="#C07020"
+     stroke-width="1.4"
+     id="rect211" />
+  <text
+     x="680"
+     y="535"
+     text-anchor="middle"
+     font-size="10"
+     font-weight="bold"
+     fill="#7A4010"
+     id="text213">gate_mlp(trait code)</text>
+  <text
+     x="680"
+     y="546"
+     text-anchor="middle"
+     font-size="9"
+     fill="#7A4010"
+     id="text215">256 → 64 → r=16</text>
+  <!-- arrow down -->
+  <line
+     x1="680"
+     y1="551"
+     x2="680"
+     y2="568"
+     stroke="#333"
+     stroke-width="1.3"
+     marker-end="url(#arr)"
+     id="line217" />
+  <!-- sigmoid -->
+  <rect
+     x="632"
+     y="569"
+     width="96"
+     height="22"
+     rx="4"
+     fill="#FDE8CC"
+     stroke="#C07020"
+     stroke-width="1.3"
+     id="rect219" />
+  <text
+     x="680"
+     y="584"
+     text-anchor="middle"
+     font-size="10"
+     fill="#7A4010"
+     id="text221">sigmoid  →  gate</text>
+  <!-- arrow down -->
+  <line
+     x1="680"
+     y1="591"
+     x2="680"
+     y2="608"
+     stroke="#333"
+     stroke-width="1.3"
+     marker-end="url(#arr)"
+     id="line223" />
+  <!-- element-wise multiply -->
+  <!-- merge arrow from lora_A intermediate down to multiply -->
+  <line
+     x1="661"
+     y1="505"
+     x2="661"
+     y2="617"
+     stroke="#333"
+     stroke-width="1.3"
+     id="line225" />
+  <circle
+     cx="672"
+     cy="617"
+     r="9"
+     fill="white"
+     stroke="#333"
+     stroke-width="1.3"
+     id="circle227" />
+  <text
+     x="672"
+     y="621"
+     text-anchor="middle"
+     font-size="12"
+     fill="#333"
+     id="text229">×</text>
+  <line
+     x1="680"
+     y1="608"
+     x2="680"
+     y2="617"
+     stroke="#333"
+     stroke-width="1.3"
+     id="line231" />
+  <line
+     x1="681"
+     y1="617"
+     x2="661"
+     y2="617"
+     stroke="#333"
+     stroke-width="1"
+     id="line233" />
+  <!-- arrow down from multiply -->
+  <line
+     x1="672"
+     y1="626"
+     x2="672"
+     y2="644"
+     stroke="#333"
+     stroke-width="1.3"
+     marker-end="url(#arr)"
+     id="line235" />
+  <!-- lora_B -->
+  <rect
+     x="606"
+     y="645"
+     width="148"
+     height="28"
+     rx="4"
+     fill="#FDE8CC"
+     stroke="#C07020"
+     stroke-width="1.4"
+     id="rect237" />
+  <text
+     x="680"
+     y="657"
+     text-anchor="middle"
+     font-size="10"
+     font-weight="bold"
+     fill="#7A4010"
+     id="text239">lora_B  ×  scaling (α/r=2)</text>
+  <text
+     x="680"
+     y="669"
+     text-anchor="middle"
+     font-size="9"
+     fill="#7A4010"
+     id="text241">r=16 → out</text>
+  <!-- arrow down to add -->
+  <line
+     x1="680"
+     y1="673"
+     x2="680"
+     y2="695"
+     stroke="#333"
+     stroke-width="1.3"
+     marker-end="url(#arr)"
+     id="line243" />
+  <!-- addition circle -->
+  <circle
+     cx="730"
+     cy="704"
+     r="10"
+     fill="white"
+     stroke="#333"
+     stroke-width="1.5"
+     id="circle245" />
+  <line
+     x1="722"
+     y1="704"
+     x2="738"
+     y2="704"
+     stroke="#333"
+     stroke-width="1.5"
+     id="line247" />
+  <line
+     x1="730"
+     y1="696"
+     x2="730"
+     y2="712"
+     stroke="#333"
+     stroke-width="1.5"
+     id="line249" />
+  <!-- left delta arrow into add -->
+  <line
+     x1="680"
+     y1="695"
+     x2="680"
+     y2="704"
+     stroke="#333"
+     stroke-width="1.3"
+     id="line251" />
+  <line
+     x1="680"
+     y1="704"
+     x2="720"
+     y2="704"
+     stroke="#333"
+     stroke-width="1.3"
+     marker-end="url(#arr)"
+     id="line253" />
+  <!-- right (base W) arrow into add -->
+  <line
+     x1="782"
+     y1="703"
+     x2="742"
+     y2="703"
+     stroke="#2C6E9B"
+     stroke-width="1.3"
+     marker-end="url(#arr-blue)"
+     id="line255" />
+  <!-- output arrow -->
+  <line
+     x1="730"
+     y1="714"
+     x2="730"
+     y2="735"
+     stroke="#333"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line257" />
+  <text
+     x="745"
+     y="748"
+     font-size="10.5"
+     fill="#333"
+     font-style="italic"
+     id="text259">output</text>
+  <!-- ═══════════════════════════════════════════════════
+       LEGEND  (bottom-left)
+  ════════════════════════════════════════════════════ -->
+  <rect
+     x="10"
+     y="800"
+     width="560"
+     height="58"
+     rx="6"
+     fill="#FAFAFA"
+     stroke="#ccc"
+     stroke-width="1"
+     id="rect261" />
+  <!-- frozen swatch -->
+  <rect
+     x="22"
+     y="816"
+     width="18"
+     height="14"
+     rx="3"
+     fill="#D6E4F0"
+     stroke="#2C6E9B"
+     stroke-width="1.3"
+     id="rect263" />
+  <text
+     x="46"
+     y="827"
+     font-size="11"
+     fill="#333"
+     id="text265">Frozen (backbone, ~1.5B params)</text>
+  <!-- trainable swatch -->
+  <rect
+     x="22"
+     y="836"
+     width="18"
+     height="14"
+     rx="3"
+     fill="#FDE8CC"
+     stroke="#C07020"
+     stroke-width="1.3"
+     id="rect267" />
+  <text
+     x="46"
+     y="847"
+     font-size="11"
+     fill="#333"
+     id="text269">Trainable (~5.9M params):  TraitEncoder, prefix_proj, lora_A, lora_B, gate_mlp</text>
+  <!-- data flow swatch -->
+  <rect
+     x="310"
+     y="816"
+     width="18"
+     height="14"
+     rx="3"
+     fill="#F0F0F0"
+     stroke="#555"
+     stroke-width="1.2"
+     id="rect271" />
+  <text
+     x="334"
+     y="827"
+     font-size="11"
+     fill="#333"
+     id="text273">Data / tensor</text>
+  <!-- ═══════════════════════════════════════════════════
+       FIGURE CAPTION NOTE  (very bottom)
+  ════════════════════════════════════════════════════ -->
+  <text
+     x="430"
+     y="880"
+     text-anchor="middle"
+     font-size="10"
+     fill="#555"
+     id="text275">
+    Backbone: Qwen2.5-1.5B-Instruct (frozen).  LoRA: r=16, α=32 on q/k/v/o of final 12 layers (48 modules).
+  </text>
+  <text
+     x="430"
+     y="894"
+     text-anchor="middle"
+     font-size="10"
+     fill="#555"
+     id="text277">
+    Soft prefix: 8 learned tokens prepended to input embeddings.  Answer readout: softmax over digit tokens &quot;1&quot;–&quot;5&quot; at final position.
+  </text>
+  <path
+     style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 278.78186,217.37514 30.22987,-0.38227"
+     id="path588"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0" />
+</svg>

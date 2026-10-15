@@ -1,0 +1,5 @@
+scale,O,C,E,A,N,source
+GRIT,0.06,0.77,0.2,0.24,-0.4,Duckworth & Quinn 2009
+SELF,0.17,0.24,0.38,0.13,-0.5,Robins et al. 2001; BigFive meta
+LEAD,0.24,0.28,0.31,0.08,-0.24,Judge et al. 2002 (corrected r)
+PROC,0.03,-0.62,-0.12,-0.12,0.24,Steel 2007 meta-analysis

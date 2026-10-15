@@ -1,0 +1,30 @@
+Loaded checkpoints/mlp_model.pt
+=== Split A (Train) ===
+Accuracy: 0.5017
+Macro F1: 0.5067
+Item Mean RMSE: 0.2254
+Item Var RMSE:  0.3745
+Correlation Frobenius Norm: 8.5376
+====================
+=== Split B (New Participants) ===
+Accuracy: 0.5000
+Macro F1: 0.4216
+Item Mean RMSE: 0.2211
+Item Var RMSE:  0.3731
+Correlation Frobenius Norm: 8.7254
+====================
+=== Split C (New Items) ===
+Accuracy: 0.3699
+Macro F1: 0.3571
+Item Mean RMSE: 0.5394
+Item Var RMSE:  0.5512
+Correlation Frobenius Norm: 3.1914
+====================
+=== Split D (New Participants & Items) ===
+Accuracy: 0.3693
+Macro F1: 0.2961
+Item Mean RMSE: 0.5221
+Item Var RMSE:  0.5755
+Correlation Frobenius Norm: 3.1446
+====================
+

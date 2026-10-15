@@ -1,0 +1,30 @@
+Loaded checkpoints/film_model.pt
+=== Split A (Train) ===
+Accuracy: 0.5058
+Macro F1: 0.5110
+Item Mean RMSE: 0.2271
+Item Var RMSE:  0.3584
+Correlation Frobenius Norm: 8.1758
+====================
+=== Split B (New Participants) ===
+Accuracy: 0.5044
+Macro F1: 0.4254
+Item Mean RMSE: 0.2247
+Item Var RMSE:  0.3647
+Correlation Frobenius Norm: 8.3779
+====================
+=== Split C (New Items) ===
+Accuracy: 0.3379
+Macro F1: 0.3036
+Item Mean RMSE: 0.7266
+Item Var RMSE:  0.5880
+Correlation Frobenius Norm: 2.9572
+====================
+=== Split D (New Participants & Items) ===
+Accuracy: 0.3411
+Macro F1: 0.2559
+Item Mean RMSE: 0.7157
+Item Var RMSE:  0.6140
+Correlation Frobenius Norm: 2.9301
+====================
+
